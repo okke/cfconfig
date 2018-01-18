@@ -7,8 +7,8 @@ spring:
   profiles: cloud
 
 eureka:
-  // take instance out when container to container is enables
-  //
+  # take instance out when container to container is enables
+  #
   instance:
     hostname: ${vcap.application.uris[0]}
     nonSecurePort: 80
