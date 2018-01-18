@@ -1,2 +1,7 @@
 ---
-server.port=${port}
+server:
+  port: ${port}
+
+feign:
+  hystrix:
+    enabled: true
