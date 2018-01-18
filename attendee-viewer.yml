@@ -16,8 +16,8 @@ security:
       accessTokenUri: https://github.com/login/oauth/access_token
       userAuthorizationUri: https://github.com/login/oauth/authorize
       clientAuthenticationScheme: form
-      preEstablishedRedirectUri: https://http://attendee-viewer-chipper-topi.cfapps.io/login
-      registered-redirect-uri: https://http://attendee-viewer-chipper-topi.cfapps.io/login
+      preEstablishedRedirectUri: https://attendee-viewer-chipper-topi.cfapps.io/login
+      registered-redirect-uri: https://attendee-viewer-chipper-topi.cfapps.io/login
       use-current-uri: false
     resource:
       userInfoUri: https://api.github.com/okke
