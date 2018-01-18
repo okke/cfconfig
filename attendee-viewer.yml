@@ -11,8 +11,8 @@ security:
     enabled: false
   oauth2:
     client:
-      clientId: ${CLIENT_ID}
-      clientSecret: ${CLIENT_SECRET}
+      clientId: ${vcap.services.git-client.CLIENT_ID}
+      clientSecret: ${vcap.services.git-client.CLIENT_SECRET}
       accessTokenUri: https://github.com/login/oauth/access_token
       userAuthorizationUri: https://github.com/login/oauth/authorize
       clientAuthenticationScheme: form
